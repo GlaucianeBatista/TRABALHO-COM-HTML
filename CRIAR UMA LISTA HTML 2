@@ -1,0 +1,34 @@
+
+2. Crie uma lista com os seguintes itens: Arroz Feijão Leite Pão Sabão Ovos Tomate Estilizar com CSS: Defina uma largura fixa de 300px para a lista. Use a estilização dar espaço interno aos itens. Use a estilização para centralizar a lista na tela. Adicione uma borda arredondada.. Use a estilização para fazer uma cor de fundo suave (#f0f0f0, por exemplo)
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Compras</title>
+  <style>
+    .lista-compras {
+      width: 300px;
+      margin: 50px auto;
+      background-color:#00FA9A;
+      border: 1px solid black;
+      border-radius: 10px; 
+      padding:0px 0px 20px 30px;
+      font-family: sans-serif;
+    }
+
+    .lista-compras li {
+      padding: 8px 0;
+    }
+    </style>
+  <ul class="lista-compras">
+    <h2> Lista de compras</h2>
+  <li>Arroz</li>
+  <li>Feijão</li>
+  <li>Leite</li>  
+  <li>Pão</li>
+  <li>Ovos</li>
+  <li>Tomate</li>
+</ul>  
+
+</body>
+</html>
