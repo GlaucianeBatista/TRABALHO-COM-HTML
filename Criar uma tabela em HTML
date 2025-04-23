@@ -1,0 +1,72 @@
+1. Crie uma página HTML com uma tabela de cardápio contendo os seguintes itens com seus respectivos preços: a. Risoto R$35,90 b. Macarronada R$25,80 c. Hamburger R$29,80 d. Frango com legumes R$30,70 e. Picanha na pedra R$ 65,40, f. Agua com gas R$ 3,40 g. Refrigerante R$ 5,30 h. Petit Gateau R$12,80 i. Mousse de chocolate R$ 9,30 
+Adicione uma borda sólida em toda a tabela e células. Adicione uma cor de fundo diferente para o cabeçalho. Use padding: 10px nas células. Centralize a tabela no meio da tela.
+
+<!DOCTYPE html>
+
+<body style="background-color:#00FA9A;">
+    <style>
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        tr:nth-child(even) {
+            background-color: #B0C4DE;
+        }
+    </style>
+
+    <head>
+
+        <tr>
+            <table style="width:100%">
+                <th>comida/bebidas</th>
+                <th>Preço</th>
+        </tr>
+        <tr>
+            <td> Risoto</td>
+            <td> R$35,90</td>
+        </tr>
+        <tr>
+            <td>Macarronada </td>
+            <td>R$25,80 </td>
+        </tr>
+        <tr>
+            <td>Macarronada </td>
+            <td>R$25,80 </td>
+        </tr>
+        <tr>
+            <td>Hamburger </td>
+            <td>R$29,80 </td>
+        </tr>
+        <tr>
+            <td>Frango</td>
+            <td>R$30,70 </td>
+        </tr>
+        <tr>
+            <td>legumes</td>
+            <td>R$30,70</td>
+        </tr>
+        <tr>
+            <td> Picanha na pedra </td>
+            <td>R$ 65,40</td>
+        </tr>
+        <tr>
+            <td> Agua com gas </td>
+            <td>R$ 3,40</td>
+        </tr>
+        <tr>
+            <td>Refrigerante</td>
+            <td> R$ 5,30</td>
+        </tr>
+        <tr>
+            <td>Petit Gateau</td>
+            <td> R$12,80</td>
+        </tr>
+        <tr>
+            <td> Mousse de chocolate
+            </td>
+            <td> R$ 9,30 </td>
+        </tr>
+</body>
+
+</html>
