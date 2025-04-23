@@ -1,0 +1,74 @@
+3) Crie uma lista ordenada com 6 modelos de smartphone que você gosta. Abaixo da lista, crie uma tabela comparativa com 3 colunas: “Marca”, “Modelo” e “Preço Aproximado”. Use estilização para ter borda na tabela e nas células. Adicione a estilização para ter um espaçamento de 30px entre a lista e a tabela. Use cores diferentes com de fundo para destacar os títulos da tabela. Use algum espaçamento nas células da tabela.
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Smartphones Favoritos</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    table {
+      width: 80%;
+      margin: 30px auto 0;
+      border-collapse: collapse;
+    }
+
+    th {
+      background-color: #2F4F4F;
+      padding: 10px;
+      border: 1px solid #999;
+    }
+
+    td {
+      padding: 10px;
+      border: 1px solid #999;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+     <th style="color:#F0F8FF;">Marca</th>
+      <th style="color:#F0F8FF;">Modelo</th>
+       <th style="color:#F0F8FF;">Preço Aproximado</th>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>iPhone 15 Pro</td>
+      <td>R$ 9.000</td>
+    </tr>
+    <tr>
+      <td>Samsung</td>
+      <td>Galaxy S24 Ultra</td>
+      <td>R$ 8.500</td>
+    </tr>
+    <tr>
+      <td>Google</td>
+      <td>Pixel 8 Pro</td>
+      <td>R$ 6.500</td>
+    </tr>
+    <tr>
+      <td>OnePlus</td>
+      <td>OnePlus 12</td>
+      <td>R$ 5.500</td>
+    </tr>
+    <tr>
+      <td>Xiaomi</td>
+      <td>Xiaomi 14</td>
+      <td>R$ 4.500</td>
+    </tr>
+    <tr>
+      <td>Asus</td>
+      <td>ROG Phone 7</td>
+      <td>R$ 6.800</td>
+    </tr>
+  </table>
+
+</body>
+</html>
